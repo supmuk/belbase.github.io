@@ -1,0 +1,149 @@
+/*This is Style.CSS of Deepak Belbase Developer Potral in Github*/
+/*{
+	padding: 0;
+	margin: 0;
+}*/
+/*****************************************************************************
+	Layout
+******************************************************************************/
+*{
+	font-family: "Andale Mono";
+}
+.bg-blue
+{
+	background-color: #286090;
+	color: #eee;
+}
+.bg-blue a, .bg-blue a:visited
+{
+	color: #ccc;
+	text-decoration: none;
+}
+.bg-orange
+{
+	background-color: #d43c18;
+}
+.bg-blue:visited ,.bg-blue a:visited:hover
+{
+	text-decoration: underline;
+}
+.bg-grey{
+	background-color: #eee;
+}
+.bg-yellow{
+	background-color: yellow;	
+}
+.bg-white
+{
+	background-color: #fff;
+	color: #444;	
+}
+.yellow
+{
+	color: yellow;
+}
+.sections{
+	padding: 120px 40px 40px 40px;
+}
+
+@media(min-width: 992px)
+{
+	.sections{
+	padding: 120px 40px 40px 40px;
+	/*margin-top: 40px;*/
+	}
+}
+@media(min-width: 1200px)
+{
+	.sections{
+	padding: 120px 40px 40px 40px;
+	/*margin-top: 40px;*/
+	}
+}
+@media(min-width: 768px && max-width: 992px)
+{
+	.sections{
+	padding:20px!important;
+	}
+}
+
+.main-section{
+	margin-top: 80px;
+}
+/*****************************************************************************
+ Border
+******************************************************************************/
+.border-round
+{
+	border-radius: 5px;
+}
+.border-yellow
+{
+	border:2px solid yellow;
+}
+/*****************************************************************************
+	Header
+******************************************************************************/
+.upper-header
+{
+	background: #eee;
+}
+.lower-header ul.primary-menu li a, .info-icons{
+	padding: 5px 15px 5px 15px;
+	margin: 15px 15px 0 0;
+}
+.lower-header ul.primary-menu li.active a, .lower-header ul.primary-menu li a:hover{
+	background-color: #286090;
+	border-radius: 15px;
+	color: #fff;
+}
+a, a:visited
+{
+	color: #286090;
+	text-decoration: none;
+}
+a:hover,a:visited:hover{
+	text-decoration: underline;	
+}
+.upper-header .row .nav
+{
+	margin-top: 10px;
+}
+.override-button{
+	background-color: #286090 !important;
+}
+.navbar-default .navbar-toggle .icon-bar{
+	background-color: #eee;
+}
+/*****************************************************************************
+	Footer
+******************************************************************************/
+.footer-menu
+{
+	margin-top: 20px; 
+	list-style: none;
+	display: block;
+}
+.white
+{
+	color: #eee;
+}
+.lower-footer
+{
+	padding: 15px;
+}
+.border-left
+{
+	border-left: 1px solid;
+}
+.border-right
+{
+	border-right: 1px solid;
+}
+.icon-container
+{
+	align-self: center;
+	text-align: center;
+	margin-top: 15px;
+}
+
