@@ -1,0 +1,277 @@
+body{
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+
+
+
+.override-color-black{
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    color: #000;
+}
+
+.override-dropdown:hover{
+	background-color: #fff !important;
+	border-radius: 50%;
+}
+.override-dropdown{
+	background-color: #fff !important;
+	border-radius: 50%;
+}
+.override-color{
+	color: rgb(255, 204, 0);
+}
+.override-navbar-color{
+	background-color: #0275d8!important;
+    margin-bottom: 0px !important;
+    border-color: #0275d8!important;
+    border-radius: 0px;
+    z-index: 999;
+}
+.override-dropdown ul li a{
+	color: #000 !important;
+}
+
+.dropdown.override-dropdown.open{
+	border-radius: 50% !important;
+}
+.class-header{
+	    box-shadow: 0px 3px 9px #272301;
+	    padding: 5px 10px;
+}
+.override-navbar-brand{
+	color: #fff !important;
+	font-size: 20px;
+	font-weight: bold;
+}
+.override-navbar li a{
+	color: #fff !important;
+	font-size: 17px;
+}
+.popular-hotel{
+	width: 450px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+.popular-hotel h2{
+	font-weight: 600;
+	border-top: 2px solid;
+	border-bottom: 2px solid;
+	padding: 10px;
+}
+.images{
+    margin-bottom: 10px;
+}
+.images-size{
+	position: relative;
+	height: 200px;
+	width: 100%;
+}
+.images span{
+    position: absolute;
+    top: 150px;
+    left: 15px;
+    background:rgba(255,255,255, 0.9);
+    font-size: 20px;
+    width: 100%;
+    padding: 10px;
+}
+.content{
+	margin-top: 50px;
+}
+.override-input-nav{
+
+}
+/*Footer Section*/
+.footer-image{
+	background-image: url('img/World-Map-Polygonal-Wireframe.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: #409cd1;
+	color: #fff;
+	margin-top: 50px;
+}
+.row.override-row-footer{
+	margin: 0px !important;
+	padding-bottom: 15px;
+}
+
+.override-footer-container{
+	padding:15px 0px;
+}
+.footer-heading-content{
+	font-size: 20px;
+	padding-top: 20px;
+}
+.override-addon-color{
+	background-color: #cddc39;
+    padding: 16px;
+}
+.override-input{
+	padding: 24px;
+}
+.ul-list{
+	list-style-type: none;
+}
+.ul-heading{
+	font-size: 18px;
+	font-weight: 600;
+}
+.ul-list li{
+	font-size: 16px;
+}
+.playstore{
+	background-color:  #cddc39;
+    border-radius: 4px;
+	margin-bottom: 5px;}
+
+.playstore-app{
+	background-color:  #f9b820;
+    border-radius: 4px;
+	margin-bottom: 5px;}
+
+/*Media Query*/
+@media (min-width: 768px and max-width: 480px){
+	.popular-hotel{
+		width: 350px;
+	}
+}
+@media (max-width:991px){
+	.ul-list{
+		text-align: center;
+		padding: 0px;
+	}
+}
+
+@media (max-width: 768px){
+	.restaurant-name,
+	.restaurant-rating{
+		display: block;
+		text-align: center;
+		float: none !important;
+	}
+}
+@media (max-width: 480px){
+	.popular-hotel{
+		width: 300px;
+	}
+	.popular-hotel h2{
+		font-size: 20px;
+	}
+}
+
+/*Hotel Page Css*/
+.hotel-restorant-tag{
+	position: absolute;
+	margin-top: -80px;
+    background-color: rgba(117, 117, 117, 0.88);
+    width: 100%;
+    padding: 20px;
+    text-align: left;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
+.restaurant-carousel-images{
+	height: 500px;
+}
+.hotel-restaurant-name{
+	color: #fff;
+}
+.hotel-restaurant-rating{
+	color: #fff;
+	float: right;
+}
+
+body.back{
+	background-color: #f5f5f5;
+	overflow-x: hidden;
+}
+.restaurant-content{
+	background-color: #fff;
+	margin-top: 50px;
+	padding: 20px;
+    box-shadow: 1px 2px 5px #757575;
+}
+.restaurant-text{
+	text-align: justify;
+	font-size: 15px;
+	padding-top: 15px;
+}
+.restaurant-rating{
+	/*margin-top: 70px;*/
+}
+.restaurant-icon-size{
+	font-size: 20px !important;
+}
+.restaurant-content-text{
+	font-size: 20px;
+}
+.restaurant-sec-row{
+	padding-top: 30px;
+}
+.svg-icon-border{
+	/*border-bottom: 2px solid;*/
+}
+.svg-img-container{
+	width: 150px;
+	opacity: 0.5;
+    /*border: 2px solid #0275d8!important;*/
+    margin: 0 auto;
+    border-radius: 50%;
+    height: 150px;
+    padding: 25px;
+    color: #fff;
+}
+/*.svg-label-container{
+	display: none;
+	position: absolute;
+	top: 50%;
+	left: 0;
+	right: 0;
+	font-size: 15px;
+	color: #333;
+
+}
+*/
+.hover-menu:hover .svg-img-container{
+	opacity: 1;
+	display: block;
+	border-color: #409cd1;
+}
+.restuarant-form-inline{
+	display: inline-block;
+}
+@media (max-width: 991px){
+	.hotel-restaurant-name,
+	.hotel-restaurant-rating{
+		display: block;
+		text-align: center;
+	}
+	.hotel-restaurant-rating{
+		float: none !important;
+	}
+}
+
+@media (max-width: 420px){
+	.hotel-restaurant-name,
+	.hotel-restaurant-rating{
+		font-size: 17px;
+	}
+	.hotel-restorant-tag{
+		padding: 10px;
+		margin-top: -70px;
+	}
+	.restaurant-card-menu{
+		padding-top: 20px;
+	}
+	.restaurant-name,
+	.restaurant-rating{
+		font-size: 17px;
+	}
+
+}
+/**slider**/
